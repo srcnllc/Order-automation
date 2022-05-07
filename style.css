@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(57, 55, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+}
+.container{
+    width: 80%;
+    height: auto;
+    margin:auto;
+}
+.container .row{
+    display:flex;
+}
+.col{
+    width: 100px;
+    height: 100px;
+    margin: 45px auto;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    color: #fff;
+}
+.col h3{
+    color: #fff;
+    z-index: 0;
+}
+.col:not(.selected):hover{
+    background-color: brown;
+    border: 1px solid brown;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.row .selected {
+    background-color: brown;
+    border:none;
+}
+.selected h3{
+    color: black;
+}

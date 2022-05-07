@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(57, 55, 55);   
+    height: 100vh;
+    margin: auto;
+    display: flex;
+}
+.products{
+    width: 40%;
+    height: 100%;
+    border-right: 1px solid red;
+}
+.sag{
+    width: 60%;
+    height: 100%;
+}
+.tatlilar{
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid red;
+}
+h3 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid rgb(245, 232, 232);
+    color: rgb(230, 203, 51);
+}
+.row{
+    display: flex;
+    margin:0 10px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.row .col{
+    padding: 10px;
+    margin: auto;
+    border: 1px solid rgb(245, 232, 232);
+    color: #fff;
+}
+.row .col:hover{
+    background-color:rgb(83, 24, 24);
+    color: #fff;
+    cursor: pointer;
+}
+.siparis .liste{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    color: #fff;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(245, 232, 232);
+    overflow-y:scroll;
+}
+.siparis .liste li{
+    margin: 5px;
+    list-style:circle;
+}
+button{
+    width: 80%;
+    padding: 5px;
+    margin-top: 2%;
+    margin-left: 10%;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    border: none;
+    font-weight: bold;
+    color: brown;
+}
+button:hover{
+    background-color: brown;
+    color: #fff;
+}
