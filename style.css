@@ -24,6 +24,7 @@ body{
     height: 100px;
     margin: 45px auto;
     border: 1px solid #fff;
+    background-color: rgb(40, 39, 39);
     border-radius: 100px;
     display: flex;
     align-items: center;
