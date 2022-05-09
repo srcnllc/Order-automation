@@ -52,10 +52,8 @@ function elemansil() {
 function elemanlariSil() {
     var secim = confirm("Masaya ait tüm siparişler silinsin mi?");
     if (secim == true) {
-        
         // eğer onaylanırsa tüm elemanlar silinsin
         var silinecekler = document.querySelectorAll("li");
- 
         for (var j = 0; j < silinecekler.length; j++) {
             silinecekler[j].remove();
         }
