@@ -64,8 +64,8 @@ h3 {
     margin: 5px;
     list-style:circle;
 }
-button{
-    width: 80%;
+#anasayfa{
+    width: 40%;
     padding: 5px;
     margin-top: 2%;
     margin-left: 10%;
@@ -76,9 +76,21 @@ button{
     font-weight: bold;
     color: brown;
 }
-button:hover{
+#anasayfa:hover,#hepsinisil:hover{
     background-color: brown;
     color: #fff;
+    transition: .5s all;
+}
+#hepsinisil{
+    width: 40%;
+    padding: 5px;
+    margin-top: 2%;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    border: none;
+    font-weight: bold;
+    color: brown;
 }
 i{
     float: right;

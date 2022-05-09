@@ -2,6 +2,10 @@ const buton = document.querySelector('button');
 const products = document.querySelector('.products');
 const sag = document.querySelector('.sag');
 const liste = document.querySelector('.liste');
+const temizleButonu = document.querySelector("#hepsinisil");
+
+temizleButonu.addEventListener("click", elemanlariSil);
+
 
 buton.addEventListener('click' , function(e){
     location.href ="../index.html"
@@ -43,5 +47,17 @@ function elemansil() {
     if (secim == true) {       
         var silinecek = this.parentElement;
         silinecek.remove();
+    }
+}
+function elemanlariSil() {
+    var secim = confirm("Masaya ait tüm siparişler silinsin mi?");
+    if (secim == true) {
+        
+        // eğer onaylanırsa tüm elemanlar silinsin
+        var silinecekler = document.querySelectorAll("li");
+ 
+        for (var j = 0; j < silinecekler.length; j++) {
+            silinecekler[j].remove();
+        }
     }
 }

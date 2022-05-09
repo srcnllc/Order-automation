@@ -22,17 +22,11 @@ container.addEventListener('click' , function(e){
     }
 });
 container.addEventListener('contextmenu' , function(e){
-    if(e.target.classList.contains('col') && !e.target.classList.contains('selected')){
+    if(e.target.classList.contains('col') || e.target.classList.contains('selected')){
         console.log(e.target.innerHTML);
-        var secim = confirm(`${e.target.innerHTML} masası doldurulsun mu?`);
+        var secim = confirm(`${e.target.innerHTML} masası Dolu/Boş olarak ayarlansın mı?`);
         if (secim == true) {       
             e.target.classList.toggle('selected');
         }
     }
-    // Hem if hemde else aynı anda selected oldugundan çalışıyor buradan devam et....!!!!
-    else(e.target.classList.contains('selected'))
-        var secim = confirm(`${e.target.innerHTML} masası boş mu?`);
-        if (secim == true) {       
-            e.target.classList.toggle('selected');
-        }
 });
