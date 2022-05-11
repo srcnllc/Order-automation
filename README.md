@@ -6,7 +6,7 @@
 Demo_Link :  https://srcnllc.github.io/Order-automation/
 
 ## Projenin Açıklaması:
--Projenin amacı kafe,lokanta vb. müşterinin gelip masada sipariş verebildiği mekanlar için hızlı masa bulabileceği ve vakit kaybetmeden siparişini daha hızlı verip hızlı şekilde ihtiyaçlarını gidermesine yöneliktir. 
+-Projenin amacı kafe,lokanta vb. müşterinin gelip masada sipariş verebildiği mekanlar için hızlı masa bulabileceği ve vakit kaybetmeden siparişini daha hızlı verip hızlı şekilde ihtiyaçlarını gidermesine yöneliktir.  
 -Başlangıç olarak düşünülen garsonun aktif sipariş velebilecek alandan ayrılmamasıdır.Garsonun elinde bir tablet veya cihaz şeklinde uygulamayı yükleyebileceğimiz cihaz ile kapyıya gelen müşteriye boş masaların hangi numaralar ve nerede olduğunu hızlı görebileceği bir uygulamadır.Rezerveolan masaların numaraları işaretlenerek belirlendiği ve dolu masalarında farklı renkte gösterildiği şekilde ayarlanmıştır.  
 -Müşteriyi uygun masaya ayakta bekletmeden yerleştirildiğinde siparişi yine bu uygulama üzerinden işaretleyerek mutfak bölümünün hızlı görmesini sağlamış ve garsonu aktif bölümden hiç ayırmadan siparişin hazırlanma aşamasını başlatmış olabiliyoruz.  
 -Bu uygulama bir android uygulaması olarak tasarlandığında çoğu mekanda kapıda masa arama durumunu ve masanın sürekli garsonu arama çabasını yok edeceğini düşünüyorum.Böylelikle hızlı servi ve hızlı iletişim ile ayakta bekletilmeyen müşteriyi memnuniyetle karşılamış olabiliyoruz.  
